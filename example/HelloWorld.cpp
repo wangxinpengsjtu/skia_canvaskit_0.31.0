@@ -44,6 +44,7 @@ void HelloWorld::updateTitle() {
     }
 
     SkString title("Hello World ");
+    SkString wxp("wangxinpeng");
     title.append(Window::kRaster_BackendType == fBackendType ? "Raster" : "OpenGL");
     fWindow->setTitle(title.c_str());
 }
